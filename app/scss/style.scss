@@ -6,7 +6,38 @@
 
 
 
+.wrapper {}
 
+.header {}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 28px 22px;
+}
+
+.menu {
+
+  &__list {}
+
+  &__list-item {}
+
+  &__list-link {}
+
+  &__list-img {}
+}
+
+.menu-left {}
+
+.logo {}
+
+.menu-center {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.menu-right {}
 
 
 
@@ -96,4 +127,3 @@
 
 /* Мегавеликі девайси (великі десктопи, >= 1200px) */
 @media (min-width: 1200px) {}
-
