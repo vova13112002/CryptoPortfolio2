@@ -5,19 +5,20 @@
 @import 'global';
 
 
-
 .wrapper {}
 
-.header {}
+.header {
+  
+  background-image: url(../images/header-bg.jpg);
+}
 
 .nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 28px 22px;
+  background: rgba(0, 0, 0, 0.46);
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
-
   &__list {}
 
   &__list-item {}
@@ -34,10 +35,21 @@
 .menu-center {
   display: flex;
   justify-content: space-between;
-
+  gap:0px 80px;
 }
 
-.menu-right {}
+.menu-right {
+  &__social {
+      display: flex;
+        justify-content: space-between;
+        gap:0 20px;
+  }
+  &__langavatar{
+      display: flex;
+        justify-content: space-between;
+        gap: 0 40px;
+  }
+}
 
 
 
